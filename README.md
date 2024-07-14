@@ -1,9 +1,3 @@
-# Online Shopping Cart (E-Commerce Website)
-- Youtube Video for introduction, demo and setup for this Project: https://www.youtube.com/watch?v=RgQG0_orFpM
-<!-- - YouTube video for step by step local setup of similar project: https://www.youtube.com/watch?v=mLFPodZO8Iw&t=8s -->
-<!-- Live site url: https://ellisonelectronics.herokuapp.com -->
-This is an E-Commerce Website build for selling of any electronics products online.
-
 ### About
 
 In this projects a user can visit the websites, registers and login to the website. They can check all the products available for shopping, filter and search item based on different categories, and then add to cart. They can add multiple item to the cart and also plus or minus the quantity in the cart. Once the cart is updated, the user can proceed to checkout and click the credit card payment details to proceed. Once the payment is success the orders will be placed and users will be able to see the orders details in the orders section along with the shipping status of the product.
@@ -39,15 +33,6 @@ Note: The payment page is created only for demo purpose and its not fully integr
 3. Database:
 - MySql
 
-### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench [https://www.youtube.com/watch?v=t79oCeTXHwg]
-
 ### ================= Dummy Database Initialization =================
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
 
@@ -64,7 +49,7 @@ Step 2 : Go to [https://myaccount.google.com/security](https://myaccount.google.
 
 Step 3: Go to [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) and enter password if asked
 
-Step 4: In Select an App Section: select Other (custom name) => enter "Ellison Electronics" => Generate
+Step 4: In Select an App Section: select Other (custom name) => enter "Paikaray's Electronics" => Generate
 
 Step 5: After that it will generate 16 digits app password which you need to copy and save for future configurations.
 
@@ -74,7 +59,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/pujapaikaray```> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
@@ -103,56 +88,33 @@ Step 10: Default Username And Password For Admin Is "admin@gmail.com" And "admin
 
 Step 11: The default Username And Password For User Is "guest@gmail.com" And "guest"
 
-## FAQ
-**Question:1** Unable to Connect to Database?
-
-**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in application.properties file. Also you can try doing maven clean install and force update the project and restart.
 <hr>
 
-Note:- This is a Sample Project for learning purpose, we have not much considered of web security.
+Note:- This is a Sample Project for learning purpose, I have not much considered of web security.
 
 #### Some Screenshots for the project:
 - Home Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/6161fb90-ac83-445d-9fb2-56681f6a52b4)
+![Screenshot 2024-07-14 115549](https://github.com/user-attachments/assets/72ef19ae-4f04-43f6-9dcd-5d6d56bc0d4f)
 - Login Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/c5451416-a669-4d76-ad84-9b8ea26bf6b4)
+- ![Screenshot 2024-07-14 115800](https://github.com/user-attachments/assets/6c709f27-020f-4f81-a422-d107cfdbb417)
 - Register Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/19f06ec9-70aa-4700-8846-a2e6514d88c2)
+- ![Screenshot 2024-07-14 115900](https://github.com/user-attachments/assets/6c7aa831-8d78-48de-96d0-738550132fe4)
 - Category Wise Product Filter
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/757e552c-1526-4142-869b-ffbf27a232e0)
+- ![Screenshot 2024-07-14 115549](https://github.com/user-attachments/assets/99341378-02a4-4b68-be45-1582f960c56f)
 - Cart Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/12963112-1276-49ca-8b9c-f3272c6b9b7b)
+- ![Screenshot 2024-07-14 120036](https://github.com/user-attachments/assets/e6ee7600-8bec-4131-9089-34673b1f0b7a)
 - Credit Card Payment
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/990595ce-856c-46fe-8182-052a127d67b4)
+- ![Screenshot 2024-07-14 131208](https://github.com/user-attachments/assets/8f6227f4-12d8-4d57-90d8-423fc488dce8)
 - Order Details & Status
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/db8b4511-cac0-41df-930a-ef3bdebe5c24)
+- ![Screenshot 2024-07-14 131335](https://github.com/user-attachments/assets/e36a48f7-8435-4034-8a81-fda6fd4b994d)
 - User Profile
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/aa22b0cd-726b-4e5c-85cd-5409b7fc5391)
+- ![Screenshot 2024-07-14 120003](https://github.com/user-attachments/assets/9138b80a-7ab8-4b87-99cc-aed38c09f90e)
 
-- Admin Home
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/0e909800-b9a2-4ece-884c-24cdc8ca931a)
-- Stock Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/e94e519b-e65c-4f51-8b37-e1b555208f2d)
-- Shipped Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/e34de1d9-91ae-4d3b-a38e-7d78aae1f410)
-- Recent Orders yet to be shipped
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/ed2df621-3256-41bd-8739-d3872474403c)
-- Add Product to the stock
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/3f38b7cf-c120-4523-abec-cdb2238c17b0)
-- Remove Product from the stock
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/1e9c6565-6a14-4cb3-834e-8d7f5d273927)
-- Update the stock item
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/1529a9a7-19a3-4381-ac58-29dbc55229d9)
-- Sample Email for order placed
-<img width="404" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/cb60c616-c32c-42eb-abe5-494d8574c09a">
-
-- Class Diagram
-<img width="589" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/d6dbfdb9-5108-4071-b4b6-d055f0370acd">
 
 #### "Suggestions and project improvement ideas are welcomed!"
 
 <bold>Thanks a lot,</bold><br/>
                                                                                                         Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                         <b>Puja K Paikaray</b>
 
 
